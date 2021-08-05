@@ -1,0 +1,8 @@
+src
+assets
+.vscode
+.github
+.eslintrc
+test
+renovate.json
+.prettierignore
