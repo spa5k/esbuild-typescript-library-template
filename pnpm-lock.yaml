@@ -11,6 +11,7 @@ specifiers:
   '@types/jest': ^26.0.24
   '@types/node': ^16.4.12
   cz-conventional-changelog: ^3.3.0
+  dotenv: ^10.0.0
   eslint: ^7.32.0
   eslint-config-galex: ^2.16.7
   husky: ^7.0.1
@@ -34,6 +35,7 @@ devDependencies:
   '@types/jest': 26.0.24
   '@types/node': 16.4.12
   cz-conventional-changelog: 3.3.0
+  dotenv: 10.0.0
   eslint: 7.32.0
   eslint-config-galex: 2.16.7_eslint@7.32.0
   husky: 7.0.1
@@ -2304,6 +2306,11 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       is-obj: 2.0.0
+    dev: true
+
+  /dotenv/10.0.0:
+    resolution: {integrity: sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==}
+    engines: {node: '>=10'}
     dev: true
 
   /duplexer2/0.1.4:

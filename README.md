@@ -2,7 +2,6 @@
 
 A template for building a library through typescript and bundling it through esbuild.
 
-
 ## Getting started
 
 1. `git clone git@github.com:Unbuttun/esbuild-typescript-library-template.git my-project`
