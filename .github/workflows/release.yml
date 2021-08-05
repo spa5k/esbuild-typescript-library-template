@@ -1,4 +1,4 @@
-name: Typescript Library Starter
+name: Publish
 
 on:
   push:
@@ -7,6 +7,7 @@ on:
 
 env:
   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+  NODE_ENV: production
 
 jobs:
   typescript-library-starter:

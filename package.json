@@ -6,12 +6,13 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "pnpm clean && tsup-node",
+    "build": "NODE_ENV=development && pnpm clean && tsup-node",
+    "build:prod": "NODE_ENV=production && pnpm clean && tsup-node",
     "format": "prettier --write .",
     "lint": "eslint src --ext .ts",
     "test": "jest",
     "cz": "cz",
-    "semantic-release": "semantic-release",
+    "semantic-release": "NODE_ENV=production && pnpm clean && pnpm build:prod && semantic-release",
     "clean": "rimraf dist"
   },
   "publishConfig": {

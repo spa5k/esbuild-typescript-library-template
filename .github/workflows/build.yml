@@ -1,6 +1,9 @@
 name: Test
 on: [push]
 
+env:
+  NODE_ENV: production
+
 jobs:
   runner-job:
     runs-on: ubuntu-latest
