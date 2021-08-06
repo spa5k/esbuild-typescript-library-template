@@ -1,8 +1,7 @@
 {
-  "extends": ["galex", "prettier"],
+  "extends": ["galex"],
   "env": { "node": true },
   "rules": {
     "no-console": "off"
-  },
-  "plugins": ["prettier"]
+  }
 }
