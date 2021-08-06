@@ -1,64 +1,65 @@
 {
   "name": "esbuild-typescript-library-template",
-  "description": " A template for building a library through typescript and bundling it through esbuild. ",
-  "version": "0.0.2",
+  "description": "Convert Chinese numbers into their Arabic Format",
+  "version": "0.1.0",
   "author": "Unbuttun",
   "bugs": {
     "url": "https://github.com/Unbuttun/esbuild-typescript-library-template/issues"
   },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
-    "@semantic-release/changelog": "^5.0.1",
-    "@semantic-release/commit-analyzer": "^8.0.1",
-    "@semantic-release/github": "^7.2.3",
-    "@semantic-release/npm": "^7.1.3",
-    "@semantic-release/release-notes-generator": "^9.0.3",
+    "@release-it/conventional-changelog": "^3.0.1",
     "@types/jest": "^26.0.24",
-    "@types/node": "^16.4.12",
-    "cz-conventional-changelog": "^3.3.0",
+    "@types/node": "^16.4.11",
     "dotenv": "^10.0.0",
     "eslint": "^7.32.0",
     "eslint-config-galex": "^2.16.7",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
     "husky": "^7.0.1",
     "jest": "^27.0.6",
     "prettier": "^2.3.2",
-    "rimraf": "^3.0.2",
-    "semantic-release": "^17.4.4",
+    "release-it": "^14.10.1",
     "ts-jest": "^27.0.4",
     "tslib": "^2.3.0",
     "tsup": "^4.13.1",
     "typescript": "^4.3.5"
   },
-  "engines": {
-    "node": ">= 12"
-  },
   "homepage": "https://github.com/Unbuttun/esbuild-typescript-library-template#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "pnpm lint",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "keywords": [
-    "esbuild",
-    "library",
-    "template",
-    "typescript"
+    "arabic",
+    "chinese",
+    "chinese-to-english",
+    "numbers"
   ],
   "license": "MIT",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "publishConfig": {
-    "access": "public"
-  },
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Unbuttun/esbuild-typescript-library-template.git"
   },
   "scripts": {
-    "build": "NODE_ENV=development && dotenv/config pnpm clean && tsup-node",
-    "build:prod": "NODE_ENV=production pnpm clean && tsup-node",
-    "clean": "rimraf dist",
-    "cz": "cz",
+    "build": "tsup-node",
     "format": "prettier --write .",
     "lint": "eslint src --ext .ts",
-    "semantic-release": "NODE_ENV=production && pnpm clean && pnpm build:prod && semantic-release",
-    "test": "jest"
+    "test": "jest",
+    "release": "dotenv release-it"
   },
-  "types": "./dist/index.d.ts"
+  "typings": "dist/index.d.ts"
 }
