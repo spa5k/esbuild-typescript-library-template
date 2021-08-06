@@ -14,6 +14,8 @@ Under the hood, this library uses [semantic-release](https://github.com/semantic
 The goal is to avoid manual release process. Using `semantic-release` will automatically create a github release (hence tags) as well as an npm release.
 Based on your commit history, `semantic-release` will automatically create a patch, feature or breaking release.
 
+![Visualization of this repo](./diagram.svg)
+
 Commands:
 
 - `cz`: interactive CLI that helps you generate a proper git commit message, using [commitizen](https://github.com/commitizen/cz-cli)
