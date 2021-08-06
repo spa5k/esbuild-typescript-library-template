@@ -48,10 +48,13 @@
     }
   },
   "keywords": [
-    "arabic",
-    "chinese",
-    "chinese-to-english",
-    "numbers"
+    "esbuild",
+    "library",
+    "typescript",
+    "template",
+    "dts",
+    "cjs",
+    "esm"
   ],
   "license": "MIT",
   "main": "dist/index.js",

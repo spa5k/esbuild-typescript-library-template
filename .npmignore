@@ -6,3 +6,5 @@ assets
 test
 renovate.json
 .prettierignore
+
+CHANGELOG.md
