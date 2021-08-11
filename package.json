@@ -1,7 +1,7 @@
 {
   "name": "esbuild-typescript-library-template",
   "description": "Typescript Esbuild Library Template",
-  "version": "0.0.1",
+  "version": "1.1.0",
   "author": "Unbuttun <unbuttun@gmail.com>",
   "bugs": {
     "url": "https://github.com/Unbuttun/esbuild-typescript-library-template/issues"
