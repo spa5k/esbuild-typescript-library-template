@@ -9,12 +9,12 @@ specifiers:
   '@semantic-release/github': ^7.2.3
   '@semantic-release/npm': ^7.1.3
   '@semantic-release/release-notes-generator': ^9.0.3
-  '@types/jest': ^26.0.24
+  '@types/jest': ^27.0.0
   '@types/node': ^16.4.13
   commitizen: ^4.2.4
   cz-conventional-changelog: ^3.3.0
   dotenv: ^10.0.0
-  esbuild: ^0.12.18
+  esbuild: ^0.12.19
   esbuild-jest: ^0.5.0
   eslint: ^7.32.0
   eslint-config-galex: ^2.16.7
@@ -35,13 +35,13 @@ devDependencies:
   '@semantic-release/github': 7.2.3_semantic-release@17.4.4
   '@semantic-release/npm': 7.1.3_semantic-release@17.4.4
   '@semantic-release/release-notes-generator': 9.0.3_semantic-release@17.4.4
-  '@types/jest': 26.0.24
+  '@types/jest': 27.0.0
   '@types/node': 16.4.13
   commitizen: 4.2.4
   cz-conventional-changelog: 3.3.0
   dotenv: 10.0.0
-  esbuild: 0.12.18
-  esbuild-jest: 0.5.0_esbuild@0.12.18
+  esbuild: 0.12.19
+  esbuild-jest: 0.5.0_esbuild@0.12.19
   eslint: 7.32.0
   eslint-config-galex: 2.16.7_eslint@7.32.0
   husky: 7.0.1
@@ -1236,8 +1236,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/26.0.24:
-    resolution: {integrity: sha512-E/X5Vib8BWqZNRlDxj9vYXhsDwPYbPINqKF9BsnSoon4RQ0D9moEuLD8txgyypFLH7J4+Lho9Nr/c8H0Fi+17w==}
+  /@types/jest/27.0.0:
+    resolution: {integrity: sha512-IlpQZVpxufe+3qPaAqEoSPHVSxnJh1cf0BqqWHJeKiAUbwnHdmNzjP3ZCWSZSTbmAGXQPNk9QmM3Bif0pR54rg==}
     dependencies:
       jest-diff: 26.6.2
       pretty-format: 26.6.2
@@ -2662,7 +2662,7 @@ packages:
       is-symbol: 1.0.4
     dev: true
 
-  /esbuild-jest/0.5.0_esbuild@0.12.18:
+  /esbuild-jest/0.5.0_esbuild@0.12.19:
     resolution: {integrity: sha512-AMZZCdEpXfNVOIDvURlqYyHwC8qC1/BFjgsrOiSL1eyiIArVtHL8YAC83Shhn16cYYoAWEW17yZn0W/RJKJKHQ==}
     peerDependencies:
       esbuild: '>=0.8.50'
@@ -2670,13 +2670,19 @@ packages:
       '@babel/core': 7.15.0
       '@babel/plugin-transform-modules-commonjs': 7.15.0_@babel+core@7.15.0
       babel-jest: 26.6.3_@babel+core@7.15.0
-      esbuild: 0.12.18
+      esbuild: 0.12.19
     transitivePeerDependencies:
       - supports-color
     dev: true
 
   /esbuild/0.12.18:
     resolution: {integrity: sha512-arWhBQSy+oiBAp8VRRCFvAU+3jyf0gGacABLO3haMHboXCDjzq4WUqyQklst2XRuFS8MXgap+9uvODqj9Iygpg==}
+    hasBin: true
+    requiresBuild: true
+    dev: true
+
+  /esbuild/0.12.19:
+    resolution: {integrity: sha512-5NuT1G6THW7l3fsSCDkcPepn24R0XtyPjKoqKHD8LfhqMXzCdz0mrS9HgO6hIhzVT7zt0T+JGbzCqF5AH8hS9w==}
     hasBin: true
     requiresBuild: true
     dev: true
