@@ -35,7 +35,7 @@ jobs:
 
   release:
     # Only release on push to master
-    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     # Waits for test jobs for each Node.js version to complete
     needs: [test]
