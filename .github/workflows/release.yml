@@ -9,9 +9,6 @@ jobs:
   test:
     runs-on: ubuntu-latest
     strategy:
-    matrix:
-      # Run the steps below with the following versions of Node.js
-      node-version: [14.x]
     steps:
       # Fetch the latest commit
       - name: Checkout
@@ -21,7 +18,7 @@ jobs:
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: 14.x
 
       - name: Cache .pnpm-store
         uses: actions/cache@v2
