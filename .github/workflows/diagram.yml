@@ -3,7 +3,7 @@ on:
   workflow_dispatch: {}
   push:
     branches:
-      - main
+      - next
 jobs:
   get_data:
     runs-on: ubuntu-latest
@@ -13,4 +13,4 @@ jobs:
       - name: Update diagram
         uses: githubocto/repo-visualizer@main
         with:
-          excluded_paths: "ignore,.github"
+          excluded_paths: "ignore,.github,pnpm-lock.yaml,README.md,.vscode,.gitignore,.npmignore,assets"

@@ -24,5 +24,4 @@ Based on your commit history, `semantic-release` will automatically create a pat
 
 Commands:
 
-- `cz`: interactive CLI that helps you generate a proper git commit message, using [commitizen](https://github.com/commitizen/cz-cli)
 - `semantic-release`: triggers a release (used in CI)

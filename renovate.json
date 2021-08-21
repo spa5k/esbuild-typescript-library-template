@@ -3,5 +3,5 @@
   "schedule": ["every weekend"],
   "automerge": true,
   "automergeType": "pr",
-  "baseBranches": ["dev"]
+  "baseBranches": ["next"]
 }
