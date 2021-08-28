@@ -23,7 +23,7 @@ specifiers:
   semantic-release: 17.4.7
   tslib: 2.3.1
   tsup: 4.14.0
-  typescript: 4.3.5
+  typescript: 4.4.2
 
 devDependencies:
   '@commitlint/cli': 13.1.0
@@ -47,8 +47,8 @@ devDependencies:
   prettier: 2.3.2
   semantic-release: 17.4.7
   tslib: 2.3.1
-  tsup: 4.14.0_typescript@4.3.5
-  typescript: 4.3.5
+  tsup: 4.14.0_typescript@4.4.2
+  typescript: 4.4.2
 
 packages:
 
@@ -6764,7 +6764,7 @@ packages:
     resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
     dev: true
 
-  /tsup/4.14.0_typescript@4.3.5:
+  /tsup/4.14.0_typescript@4.4.2:
     resolution: {integrity: sha512-77rWdzhikTP9mQ34XMRzK83tw++LF6f4ox/HNERlgesB7g6g5VQ1iJlueG9O0P9HAZGVKavUwyoZv0+322p6rg==}
     hasBin: true
     peerDependencies:
@@ -6786,7 +6786,7 @@ packages:
       rollup: 2.56.2
       sucrase: 3.20.1
       tree-kill: 1.2.2
-      typescript: 4.3.5
+      typescript: 4.4.2
     transitivePeerDependencies:
       - supports-color
       - ts-node
@@ -6859,6 +6859,12 @@ packages:
 
   /typescript/4.3.5:
     resolution: {integrity: sha512-DqQgihaQ9cUrskJo9kIyW/+g0Vxsk8cDtZ52a3NGh0YNTfpUSArXSohyUGnvbPazEPLu398C0UxmKSOrPumUzA==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
+
+  /typescript/4.4.2:
+    resolution: {integrity: sha512-gzP+t5W4hdy4c+68bfcv0t400HVJMMd2+H9B7gae1nQlBzCqvrXX+6GL/b3GAgyTH966pzrZ70/fRjwAtZksSQ==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
