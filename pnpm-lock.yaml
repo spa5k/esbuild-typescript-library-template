@@ -13,7 +13,7 @@ specifiers:
   '@types/node': 16.7.1
   commitizen: 4.2.4
   dotenv: 10.0.0
-  esbuild: 0.12.22
+  esbuild: 0.12.24
   esbuild-jest: 0.5.0
   eslint: 7.32.0
   eslint-config-galex: 2.16.9
@@ -38,8 +38,8 @@ devDependencies:
   '@types/node': 16.7.1
   commitizen: 4.2.4
   dotenv: 10.0.0
-  esbuild: 0.12.22
-  esbuild-jest: 0.5.0_esbuild@0.12.22
+  esbuild: 0.12.24
+  esbuild-jest: 0.5.0_esbuild@0.12.24
   eslint: 7.32.0
   eslint-config-galex: 2.16.9_eslint@7.32.0
   husky: 7.0.1
@@ -2551,7 +2551,7 @@ packages:
       is-symbol: 1.0.4
     dev: true
 
-  /esbuild-jest/0.5.0_esbuild@0.12.22:
+  /esbuild-jest/0.5.0_esbuild@0.12.24:
     resolution: {integrity: sha512-AMZZCdEpXfNVOIDvURlqYyHwC8qC1/BFjgsrOiSL1eyiIArVtHL8YAC83Shhn16cYYoAWEW17yZn0W/RJKJKHQ==}
     peerDependencies:
       esbuild: '>=0.8.50'
@@ -2559,13 +2559,19 @@ packages:
       '@babel/core': 7.15.0
       '@babel/plugin-transform-modules-commonjs': 7.15.0_@babel+core@7.15.0
       babel-jest: 26.6.3_@babel+core@7.15.0
-      esbuild: 0.12.22
+      esbuild: 0.12.24
     transitivePeerDependencies:
       - supports-color
     dev: true
 
   /esbuild/0.12.22:
     resolution: {integrity: sha512-yWCr9RoFehpqoe/+MwZXJpYOEIt7KOEvNnjIeMZpMSyQt+KCBASM3y7yViiN5dJRphf1wGdUz1+M4rTtWd/ulA==}
+    hasBin: true
+    requiresBuild: true
+    dev: true
+
+  /esbuild/0.12.24:
+    resolution: {integrity: sha512-C0ibY+HsXzYB6L/pLWEiWjMpghKsIc58Q5yumARwBQsHl9DXPakW+5NI/Y9w4YXiz0PEP6XTGTT/OV4Nnsmb4A==}
     hasBin: true
     requiresBuild: true
     dev: true
