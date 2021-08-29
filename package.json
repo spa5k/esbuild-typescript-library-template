@@ -30,7 +30,7 @@
     "esbuild": "0.12.24",
     "esbuild-jest": "0.5.0",
     "eslint": "7.32.0",
-    "eslint-config-galex": "2.16.9",
+    "eslint-config-galex": "2.16.10",
     "husky": "7.0.2",
     "jest": "27.1.0",
     "prettier": "2.3.2",
