@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/Unbuttun/esbuild-typescript-library-template/compare/v1.2.0...v1.3.0) (2021-09-01)
+
+
+### Features
+
+* **main:** ✨ Added node-dev to automatically start the dev server ([a9a444d](https://github.com/Unbuttun/esbuild-typescript-library-template/commit/a9a444d53ab5418ffeb826ed18a6c50bce21fd4f))
+
 # [1.2.0](https://github.com/Unbuttun/esbuild-typescript-library-template/compare/v1.1.0...v1.2.0) (2021-08-21)
 
 
