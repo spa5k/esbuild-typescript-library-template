@@ -19,7 +19,7 @@ specifiers:
   eslint-config-galex: 2.16.11
   husky: 7.0.2
   jest: 27.1.0
-  node-dev: ^7.0.0
+  node-dev: 7.0.0
   prettier: 2.3.2
   semantic-release: 17.4.7
   tslib: 2.3.1
