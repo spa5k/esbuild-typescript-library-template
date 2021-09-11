@@ -20,7 +20,7 @@ specifiers:
   husky: 7.0.2
   jest: 27.1.1
   node-dev: 7.0.0
-  prettier: 2.3.2
+  prettier: 2.4.0
   semantic-release: 17.4.7
   tslib: 2.3.1
   tsup: 4.14.0
@@ -46,7 +46,7 @@ devDependencies:
   husky: 7.0.2
   jest: 27.1.1
   node-dev: 7.0.0
-  prettier: 2.3.2
+  prettier: 2.4.0
   semantic-release: 17.4.7
   tslib: 2.3.1
   tsup: 4.14.0_typescript@4.4.3
@@ -5780,8 +5780,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier/2.3.2:
-    resolution: {integrity: sha512-lnJzDfJ66zkMy58OL5/NY5zp70S7Nz6KqcKkXYzn2tMVrNxvbqaBpg7H3qHaLxCJ5lNMsGuM8+ohS7cZrthdLQ==}
+  /prettier/2.4.0:
+    resolution: {integrity: sha512-DsEPLY1dE5HF3BxCRBmD4uYZ+5DCbvatnolqTqcxEgKVZnL2kUfyu7b8pPQ5+hTBkdhU9SLUmK0/pHb07RE4WQ==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
