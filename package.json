@@ -32,7 +32,7 @@
     "eslint": "7.32.0",
     "eslint-config-galex": "2.16.11",
     "husky": "7.0.2",
-    "jest": "27.1.0",
+    "jest": "27.1.1",
     "node-dev": "7.0.0",
     "prettier": "2.3.2",
     "semantic-release": "17.4.7",
