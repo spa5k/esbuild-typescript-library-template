@@ -23,7 +23,7 @@ specifiers:
   prettier: 2.4.1
   semantic-release: 17.4.7
   tslib: 2.3.1
-  tsup: 4.14.0
+  tsup: 5.1.0
   typescript: 4.4.3
 
 devDependencies:
@@ -49,7 +49,7 @@ devDependencies:
   prettier: 2.4.1
   semantic-release: 17.4.7
   tslib: 2.3.1
-  tsup: 4.14.0_typescript@4.4.3
+  tsup: 5.1.0_typescript@4.4.3
   typescript: 4.4.3
 
 packages:
@@ -2969,12 +2969,6 @@ packages:
       esbuild: 0.12.28
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /esbuild/0.12.22:
-    resolution: {integrity: sha512-yWCr9RoFehpqoe/+MwZXJpYOEIt7KOEvNnjIeMZpMSyQt+KCBASM3y7yViiN5dJRphf1wGdUz1+M4rTtWd/ulA==}
-    hasBin: true
-    requiresBuild: true
     dev: true
 
   /esbuild/0.12.28:
@@ -7222,8 +7216,8 @@ packages:
     resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
     dev: true
 
-  /tsup/4.14.0_typescript@4.4.3:
-    resolution: {integrity: sha512-77rWdzhikTP9mQ34XMRzK83tw++LF6f4ox/HNERlgesB7g6g5VQ1iJlueG9O0P9HAZGVKavUwyoZv0+322p6rg==}
+  /tsup/5.1.0_typescript@4.4.3:
+    resolution: {integrity: sha512-shox7rIKPneySkC6CI7py1N1Buqlp++sofTztZxGAESP4od2WrPD/y0FwNo6+XaoXfuzVV6bDAwvCtDpc0bq1A==}
     hasBin: true
     peerDependencies:
       typescript: ^4.2.3
@@ -7235,7 +7229,7 @@ packages:
       chalk: 4.1.2
       chokidar: 3.5.2
       debug: 4.3.2
-      esbuild: 0.12.22
+      esbuild: 0.12.28
       execa: 5.1.1
       globby: 11.0.4
       joycon: 3.0.1
