@@ -40,9 +40,10 @@
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-sonarjs": "^0.10.0",
     "eslint-plugin-unicorn": "^36.0.0",
-    "husky": "7.0.2",
+    "husky": "^7.0.0",
     "jest": "27.2.4",
     "node-dev": "7.0.0",
+    "pinst": "^2.0.0",
     "prettier": "2.4.1",
     "semantic-release": "18.0.0",
     "tslib": "2.3.1",
@@ -83,7 +84,10 @@
     "format": "prettier --write .",
     "lint": "eslint src --ext .ts",
     "semantic-release": "semantic-release",
-    "test": "jest"
+    "test": "jest",
+    "postinstall": "husky install",
+    "prepublishOnly": "pinst --disable",
+    "postpublish": "pinst --enable"
   },
   "typings": "dist/index.d.ts"
 }
