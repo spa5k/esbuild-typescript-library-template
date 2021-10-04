@@ -2,6 +2,8 @@
 
 A template for building a library through typescript and bundling it through esbuild.
 
+Uses yarn3 alongside latest pnp support.
+
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/esbuild-typescript-library-template?logo=files&style=for-the-badge)
 ![npm](https://img.shields.io/npm/v/esbuild-typescript-library-template?logo=npm&style=for-the-badge)
 ![node-current](https://img.shields.io/badge/Node-%3E=12-success?style=for-the-badge&logo=node)
@@ -11,7 +13,7 @@ A template for building a library through typescript and bundling it through esb
 
 1. `git clone git@github.com:Unbuttun/esbuild-typescript-library-template.git my-project`
 2. `cd my-project`
-3. `pnpm install`
+3. `yarn install`
 
 ### Releasing
 
@@ -20,6 +22,7 @@ The goal is to avoid manual release process. Using `semantic-release` will autom
 Based on your commit history, `semantic-release` will automatically create a patch, feature or breaking release.
 
 ### Visualization of this Repo.
+
 ![Visualization of this repo](./diagram.svg)
 
 Commands:
