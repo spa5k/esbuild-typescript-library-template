@@ -1,3 +1,11 @@
+# [1.4.0](https://github.com/Unbuttun/esbuild-typescript-library-template/compare/v1.3.0...v1.4.0) (2021-10-04)
+
+
+### Features
+
+* **deps:** ⬆️ upgrading dependencies to latest version ([61750b6](https://github.com/Unbuttun/esbuild-typescript-library-template/commit/61750b6281d367ad7a76dafc7fbec0c9a4005fd4))
+* **husky:** ✨ add pinst, update husky to ^7.0.0 ([e282485](https://github.com/Unbuttun/esbuild-typescript-library-template/commit/e2824854ca48724bf0ec1e842028a9bec0808c60))
+
 # [1.3.0](https://github.com/Unbuttun/esbuild-typescript-library-template/compare/v1.2.0...v1.3.0) (2021-09-01)
 
 
