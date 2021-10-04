@@ -14,7 +14,8 @@ module.exports = {
       prerelease: true,
     },
   ],
-  repositoryUrl: "https://github.com/Unbuttun/esbuild-typescript-library-template.git",
+  repositoryUrl:
+    "https://github.com/Unbuttun/esbuild-typescript-library-template.git",
   plugins: [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",

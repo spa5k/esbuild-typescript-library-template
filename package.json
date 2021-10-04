@@ -11,9 +11,9 @@
       "@commitlint/config-conventional"
     ]
   },
-  "files": [
-    "dist"
-  ],
+  "dependencies": {
+    "@yarnpkg/esbuild-plugin-pnp": "^2.0.0-rc.1"
+  },
   "devDependencies": {
     "@commitlint/cli": "13.2.0",
     "@commitlint/config-conventional": "13.2.0",
@@ -24,13 +24,22 @@
     "@semantic-release/npm": "8.0.0",
     "@semantic-release/release-notes-generator": "10.0.2",
     "@types/jest": "27.0.2",
-    "@types/node": "16.7.10",
+    "@types/node": "16.10.2",
+    "@typescript-eslint/eslint-plugin": "^4.32.0",
+    "@typescript-eslint/parser": "^4.32.0",
     "commitizen": "4.2.4",
     "dotenv": "10.0.0",
     "esbuild": "0.13.3",
     "esbuild-jest": "0.5.0",
     "eslint": "7.32.0",
     "eslint-config-galex": "2.16.12",
+    "eslint-import-resolver-node": "^0.3.6",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-inclusive-language": "^2.1.1",
+    "eslint-plugin-jest-formatting": "^3.0.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-sonarjs": "^0.10.0",
+    "eslint-plugin-unicorn": "^36.0.0",
     "husky": "7.0.2",
     "jest": "27.2.4",
     "node-dev": "7.0.0",
@@ -40,6 +49,9 @@
     "tsup": "5.2.1",
     "typescript": "4.4.3"
   },
+  "files": [
+    "dist"
+  ],
   "homepage": "https://github.com/Unbuttun/esbuild-typescript-library-template#readme",
   "husky": {
     "hooks": {
@@ -48,17 +60,18 @@
     }
   },
   "keywords": [
-    "esbuild",
-    "library",
-    "typescript",
-    "template",
-    "dts",
     "cjs",
-    "esm"
+    "dts",
+    "esbuild",
+    "esm",
+    "library",
+    "template",
+    "typescript"
   ],
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
+  "packageManager": "yarn@3.0.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Unbuttun/esbuild-typescript-library-template.git"
@@ -69,8 +82,8 @@
     "dev": "node-dev dist/main.js",
     "format": "prettier --write .",
     "lint": "eslint src --ext .ts",
-    "test": "jest",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "test": "jest"
   },
   "typings": "dist/index.d.ts"
 }
