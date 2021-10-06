@@ -6,5 +6,6 @@ assets
 test
 renovate.json
 .prettierignore
+.yarn
 
 CHANGELOG.md
