@@ -11,7 +11,7 @@ Uses yarn3 alongside latest pnp support.
 
 ## Getting started
 
-1. `git clone git@github.com:Unbuttun/esbuild-typescript-library-template.git my-project`
+1. `git clone git@github.com:spa5k/esbuild-typescript-library-template.git my-project`
 2. `cd my-project`
 3. `yarn install`
 

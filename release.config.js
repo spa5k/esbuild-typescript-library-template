@@ -15,7 +15,7 @@ module.exports = {
     },
   ],
   repositoryUrl:
-    "https://github.com/Unbuttun/esbuild-typescript-library-template.git",
+    "https://github.com/spa5k/esbuild-typescript-library-template.git",
   plugins: [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
