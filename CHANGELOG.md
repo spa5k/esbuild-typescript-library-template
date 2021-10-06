@@ -1,3 +1,16 @@
+# [1.5.0](https://github.com/spa5k/esbuild-typescript-library-template/compare/v1.4.0...v1.5.0) (2021-10-06)
+
+
+### Bug Fixes
+
+* **docs:** 🐛 moving from unbuttun to spa5k ([088af0a](https://github.com/spa5k/esbuild-typescript-library-template/commit/088af0a2971d9d1160bfe1f7f609bcb4365063fd))
+* **docs:** bug moving from unbuttun to spa5k ([e9b30fe](https://github.com/spa5k/esbuild-typescript-library-template/commit/e9b30fea0d9899e5e2edf0bba5303c912e40db63))
+
+
+### Features
+
+* **deps:** ⬆️ update @types/node to 16.10.3 (and 7 others) ([226cc57](https://github.com/spa5k/esbuild-typescript-library-template/commit/226cc578142c1e4adcd2aa295363e1133453a7fb))
+
 # [1.4.0](https://github.com/spa5k/esbuild-typescript-library-template/compare/v1.3.0...v1.4.0) (2021-10-04)
 
 
