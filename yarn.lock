@@ -1703,7 +1703,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:4.33.0, @typescript-eslint/eslint-plugin@npm:^4.33.0":
+"@typescript-eslint/eslint-plugin@npm:4.33.0":
   version: 4.33.0
   resolution: "@typescript-eslint/eslint-plugin@npm:4.33.0"
   dependencies:
@@ -1757,7 +1757,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:4.33.0, @typescript-eslint/parser@npm:^4.33.0":
+"@typescript-eslint/parser@npm:4.33.0":
   version: 4.33.0
   resolution: "@typescript-eslint/parser@npm:4.33.0"
   dependencies:
@@ -3970,8 +3970,8 @@ __metadata:
     "@semantic-release/release-notes-generator": 10.0.2
     "@types/jest": 27.0.2
     "@types/node": 16.10.3
-    "@typescript-eslint/eslint-plugin": ^4.33.0
-    "@typescript-eslint/parser": ^4.33.0
+    "@typescript-eslint/eslint-plugin": 4.33.0
+    "@typescript-eslint/parser": 4.33.0
     "@yarnpkg/esbuild-plugin-pnp": ^2.0.0-rc.1
     commitizen: 4.2.4
     dotenv: 10.0.0
@@ -3979,17 +3979,17 @@ __metadata:
     esbuild-jest: 0.5.0
     eslint: 7.32.0
     eslint-config-galex: 2.16.13
-    eslint-import-resolver-node: ^0.3.6
-    eslint-plugin-import: ^2.24.2
-    eslint-plugin-inclusive-language: ^2.1.1
-    eslint-plugin-jest-formatting: ^3.0.0
-    eslint-plugin-promise: ^5.1.0
-    eslint-plugin-sonarjs: ^0.10.0
-    eslint-plugin-unicorn: ^36.0.0
-    husky: ^7.0.2
+    eslint-import-resolver-node: 0.3.6
+    eslint-plugin-import: 2.24.2
+    eslint-plugin-inclusive-language: 2.1.1
+    eslint-plugin-jest-formatting: 3.0.0
+    eslint-plugin-promise: 5.1.0
+    eslint-plugin-sonarjs: 0.10.0
+    eslint-plugin-unicorn: 36.0.0
+    husky: 7.0.2
     jest: 27.2.4
     node-dev: 7.0.0
-    pinst: ^2.1.6
+    pinst: 2.1.6
     prettier: 2.4.1
     semantic-release: 18.0.0
     tslib: 2.3.1
@@ -4176,7 +4176,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-node@npm:^0.3.6":
+"eslint-import-resolver-node@npm:0.3.6, eslint-import-resolver-node@npm:^0.3.6":
   version: 0.3.6
   resolution: "eslint-import-resolver-node@npm:0.3.6"
   dependencies:
@@ -4196,7 +4196,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:2.24.2, eslint-plugin-import@npm:^2.24.2":
+"eslint-plugin-import@npm:2.24.2":
   version: 2.24.2
   resolution: "eslint-plugin-import@npm:2.24.2"
   dependencies:
@@ -4221,7 +4221,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-inclusive-language@npm:2.1.1, eslint-plugin-inclusive-language@npm:^2.1.1":
+"eslint-plugin-inclusive-language@npm:2.1.1":
   version: 2.1.1
   resolution: "eslint-plugin-inclusive-language@npm:2.1.1"
   dependencies:
@@ -4243,7 +4243,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest-formatting@npm:3.0.0, eslint-plugin-jest-formatting@npm:^3.0.0":
+"eslint-plugin-jest-formatting@npm:3.0.0":
   version: 3.0.0
   resolution: "eslint-plugin-jest-formatting@npm:3.0.0"
   peerDependencies:
@@ -4288,7 +4288,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-promise@npm:5.1.0, eslint-plugin-promise@npm:^5.1.0":
+"eslint-plugin-promise@npm:5.1.0":
   version: 5.1.0
   resolution: "eslint-plugin-promise@npm:5.1.0"
   peerDependencies:
@@ -4330,7 +4330,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-sonarjs@npm:0.10.0, eslint-plugin-sonarjs@npm:^0.10.0":
+"eslint-plugin-sonarjs@npm:0.10.0":
   version: 0.10.0
   resolution: "eslint-plugin-sonarjs@npm:0.10.0"
   peerDependencies:
@@ -4350,7 +4350,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:36.0.0, eslint-plugin-unicorn@npm:^36.0.0":
+"eslint-plugin-unicorn@npm:36.0.0":
   version: 36.0.0
   resolution: "eslint-plugin-unicorn@npm:36.0.0"
   dependencies:
@@ -5602,7 +5602,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:^7.0.2":
+"husky@npm:7.0.2":
   version: 7.0.2
   resolution: "husky@npm:7.0.2"
   bin:
@@ -8923,7 +8923,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pinst@npm:^2.1.6":
+"pinst@npm:2.1.6":
   version: 2.1.6
   resolution: "pinst@npm:2.1.6"
   dependencies:
