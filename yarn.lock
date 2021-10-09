@@ -4007,7 +4007,7 @@ __metadata:
     prettier: 2.4.1
     semantic-release: 18.0.0
     tslib: 2.3.1
-    tsup: 5.3.0
+    tsup: 5.4.0
     typescript: 4.4.3
   languageName: unknown
   linkType: soft
@@ -4033,7 +4033,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:0.13.4":
+"esbuild@npm:0.13.4, esbuild@npm:^0.13.4":
   version: 0.13.4
   resolution: "esbuild@npm:0.13.4"
   dependencies:
@@ -4089,15 +4089,6 @@ __metadata:
   bin:
     esbuild: bin/esbuild
   checksum: 0bde4a312a0a2f2da83254f2bb4c716bd75c18eb7351733c0b3039f54a90e28e1777d89dc0abeccb1f102a31e3bfd35751458bed669d5cb8439cf2d8d514de7f
-  languageName: node
-  linkType: hard
-
-"esbuild@npm:^0.12.28":
-  version: 0.12.29
-  resolution: "esbuild@npm:0.12.29"
-  bin:
-    esbuild: bin/esbuild
-  checksum: 06a6e84eff02899b45c7d4441199f7bbc824a9f5a2d0332bfe9873963751213c71bcb03b8db96babbc45ef31c140580ff64317ee7600983fc88b84c2d9788bbf
   languageName: node
   linkType: hard
 
@@ -10834,15 +10825,15 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"tsup@npm:5.3.0":
-  version: 5.3.0
-  resolution: "tsup@npm:5.3.0"
+"tsup@npm:5.4.0":
+  version: 5.4.0
+  resolution: "tsup@npm:5.4.0"
   dependencies:
     cac: ^6.7.2
     chalk: ^4.1.0
     chokidar: ^3.5.1
     debug: ^4.3.1
-    esbuild: ^0.12.28
+    esbuild: ^0.13.4
     execa: ^5.0.0
     globby: ^11.0.3
     joycon: ^3.0.1
@@ -10859,7 +10850,7 @@ resolve@^2.0.0-next.3:
   bin:
     tsup: dist/cli-default.js
     tsup-node: dist/cli-node.js
-  checksum: 6b101844e207b2d624beac653dc8d8a8d23cc4faaa86ff47318c73770434d49e787a941d95d093b0bdb611b8db0b9ccbc05f04e96d33099d69dca3fb2ac8c4df
+  checksum: 889bf90fae8c7c4570298a4a91c30e62b98d052dc65119f7a785142f07422473ac86c7fb257b089cf9e75e2895f9cc10d8a45579fd910b251fa28e0dc46c3a1d
   languageName: node
   linkType: hard
 
