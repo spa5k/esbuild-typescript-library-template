@@ -34,7 +34,7 @@
     "eslint": "7.32.0",
     "eslint-config-galex": "2.16.13",
     "eslint-import-resolver-node": "0.3.6",
-    "eslint-plugin-import": "2.24.2",
+    "eslint-plugin-import": "2.25.2",
     "eslint-plugin-inclusive-language": "2.1.1",
     "eslint-plugin-jest-formatting": "3.0.0",
     "eslint-plugin-promise": "5.1.0",
