@@ -4265,7 +4265,7 @@ __metadata:
     esbuild: 0.13.9
     esbuild-jest: 0.5.0
     eslint: 8.1.0
-    eslint-config-galex: 3.1.0
+    eslint-config-galex: 3.1.1
     eslint-import-resolver-node: 0.3.6
     eslint-plugin-import: 2.25.2
     eslint-plugin-inclusive-language: 2.1.1
@@ -4495,9 +4495,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-galex@npm:3.1.0":
-  version: 3.1.0
-  resolution: "eslint-config-galex@npm:3.1.0"
+"eslint-config-galex@npm:3.1.1":
+  version: 3.1.1
+  resolution: "eslint-config-galex@npm:3.1.1"
   dependencies:
     "@babel/core": 7.15.8
     "@babel/eslint-parser": 7.15.8
@@ -4521,7 +4521,7 @@ __metadata:
     typescript: 4.4.4
   peerDependencies:
     eslint: ">=8.0.0"
-  checksum: fd9c2ec9977b6cf1390e6dcf546e3732d4392e98ff78b3931f6afab6a23a91f471d418451eb920529405e8fed6273892c18ffc458a1be98755059d7189c455f4
+  checksum: 82b370a4bd44881bd898f88a235af9ee2546cef6d1cb698d6b3264fbf6a23bd2003d8e2540baf12f74076ad4881992db3b130232cd0614a61b6c7ff27c434edc
   languageName: node
   linkType: hard
 
