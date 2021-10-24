@@ -4280,7 +4280,7 @@ __metadata:
     prettier: 2.4.1
     semantic-release: 18.0.0
     tslib: 2.3.1
-    tsup: 5.4.3
+    tsup: 5.4.4
     typescript: 4.4.4
   languageName: unknown
   linkType: soft
@@ -11120,9 +11120,9 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"tsup@npm:5.4.3":
-  version: 5.4.3
-  resolution: "tsup@npm:5.4.3"
+"tsup@npm:5.4.4":
+  version: 5.4.4
+  resolution: "tsup@npm:5.4.4"
   dependencies:
     cac: ^6.7.2
     chalk: ^4.1.0
@@ -11145,7 +11145,7 @@ resolve@^2.0.0-next.3:
   bin:
     tsup: dist/cli-default.js
     tsup-node: dist/cli-node.js
-  checksum: 73a3e6f571ce7931cb38d05a6c831391928d5eef34651f3e20fa48f8c44135ebaf643727010f8d50bffde069bb6b0ab3cc3597c686830021069ca75aceb30700
+  checksum: a84783e3c4aeefd8cecf639e4cc4b101be3005e518acdd979b6af5e950f830f30724e845a540dd95ca223e34da4fdcdfdec39130f88f1327eb0dd2ea87f4339c
   languageName: node
   linkType: hard
 
