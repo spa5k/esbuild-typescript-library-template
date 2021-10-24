@@ -4275,7 +4275,7 @@ __metadata:
     eslint-plugin-unicorn: 37.0.1
     husky: 7.0.4
     jest: 27.3.1
-    node-dev: 7.0.0
+    node-dev: 7.1.0
     pinst: 2.1.6
     prettier: 2.4.1
     semantic-release: 18.0.0
@@ -8409,9 +8409,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-dev@npm:7.0.0":
-  version: 7.0.0
-  resolution: "node-dev@npm:7.0.0"
+"node-dev@npm:7.1.0":
+  version: 7.1.0
+  resolution: "node-dev@npm:7.1.0"
   dependencies:
     dateformat: ^3.0.3
     dynamic-dedupe: ^0.3.0
@@ -8422,7 +8422,7 @@ __metadata:
     semver: ^7.3.5
   bin:
     node-dev: bin/node-dev
-  checksum: 8e3cf01f83b6ec0cd31eccd990c01bf98939813dde446cf148e3e139e8eecd67b61127cc2d4b9bbe8fff07b4e5dacd446bde5176f9091084716997f75590a5c9
+  checksum: 7c02bff340c3aa19d7d7c91005f56217d59952fcd97710a197b45154136cc4f9604ab89d6826f819e18cbfa34524ddc5dccd09f96fe9350570a643a2f48750fd
   languageName: node
   linkType: hard
 
