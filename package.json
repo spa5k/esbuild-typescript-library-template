@@ -42,7 +42,7 @@
     "eslint-plugin-unicorn": "37.0.1",
     "husky": "7.0.4",
     "jest": "27.3.1",
-    "node-dev": "7.0.0",
+    "node-dev": "7.1.0",
     "pinst": "2.1.6",
     "prettier": "2.4.1",
     "semantic-release": "18.0.0",
