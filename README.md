@@ -6,7 +6,7 @@ Uses yarn v3.1 alongside latest pnp support.
 
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/esbuild-typescript-library-template?logo=files&style=for-the-badge)
 ![npm](https://img.shields.io/npm/v/esbuild-typescript-library-template?logo=npm&style=for-the-badge)
-![node-current](https://img.shields.io/badge/Node-%3E=12-success?style=for-the-badge&logo=node)
+![node-current](https://img.shields.io/badge/Node-%3E=14-success?style=for-the-badge&logo=node)
 ![npm](https://img.shields.io/npm/dw/esbuild-typescript-library-template?style=for-the-badge)
 
 ## Getting started

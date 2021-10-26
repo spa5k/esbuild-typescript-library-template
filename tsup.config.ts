@@ -15,4 +15,5 @@ export const tsup: Options = {
   entryPoints: ["src/index.ts"],
   watch: env === "development",
   esbuildPlugins: [pnpPlugin()],
+  target: "node14",
 };
