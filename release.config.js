@@ -14,8 +14,6 @@ module.exports = {
       prerelease: true,
     },
   ],
-  repositoryUrl:
-    "https://github.com/spa5k/esbuild-typescript-library-template.git",
   plugins: [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
@@ -30,7 +28,7 @@ module.exports = {
     [
       "@semantic-release/git",
       {
-        assets: ["CHANGELOG.md", "package.json", "pnpm-lock.yaml"],
+        assets: ["CHANGELOG.md", "package.json", "pnpm-lock.yaml", "yarn.lock"],
         message:
           "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
       },
