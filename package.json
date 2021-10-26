@@ -1,7 +1,7 @@
 {
   "name": "esbuild-typescript-library-template",
   "description": "Typescript Esbuild Library Template",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "author": "spa5k <unbuttun@gmail.com>",
   "bugs": {
     "url": "https://github.com/spa5k/esbuild-typescript-library-template/issues"

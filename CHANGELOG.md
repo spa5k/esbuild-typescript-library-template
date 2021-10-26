@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/spa5k/esbuild-typescript-library-template/compare/v1.5.0...v1.6.0) (2021-10-26)
+
+
+### Features
+
+* **yarn:** ⬆️ updating deps and moving to Yarn v3 ([798fb8b](https://github.com/spa5k/esbuild-typescript-library-template/commit/798fb8b14715e1e5f165f2535fb3d4bfe51e5a4a))
+
 # [1.5.0](https://github.com/spa5k/esbuild-typescript-library-template/compare/v1.4.0...v1.5.0) (2021-10-06)
 
 ### Bug Fixes
