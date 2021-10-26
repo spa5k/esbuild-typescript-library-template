@@ -13,4 +13,4 @@ jobs:
       - name: Update diagram
         uses: githubocto/repo-visualizer@main
         with:
-          excluded_paths: "ignore,.github,pnpm-lock.yaml,README.md,.vscode,.gitignore,.npmignore,assets,.yarn,.husky"
+          excluded_paths: "ignore,.github,pnpm-lock.yaml,README.md,.vscode,.gitignore,.npmignore,assets,.yarn,.husky,yarn.lock"
