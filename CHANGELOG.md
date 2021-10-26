@@ -1,30 +1,26 @@
 # [1.5.0](https://github.com/spa5k/esbuild-typescript-library-template/compare/v1.4.0...v1.5.0) (2021-10-06)
 
-
 ### Bug Fixes
 
-* **docs:** 🐛 moving from unbuttun to spa5k ([088af0a](https://github.com/spa5k/esbuild-typescript-library-template/commit/088af0a2971d9d1160bfe1f7f609bcb4365063fd))
-* **docs:** bug moving from unbuttun to spa5k ([e9b30fe](https://github.com/spa5k/esbuild-typescript-library-template/commit/e9b30fea0d9899e5e2edf0bba5303c912e40db63))
-
+- **docs:** 🐛 moving from unbuttun to spa5k ([088af0a](https://github.com/spa5k/esbuild-typescript-library-template/commit/088af0a2971d9d1160bfe1f7f609bcb4365063fd))
+- **docs:** bug moving from unbuttun to spa5k ([e9b30fe](https://github.com/spa5k/esbuild-typescript-library-template/commit/e9b30fea0d9899e5e2edf0bba5303c912e40db63))
 
 ### Features
 
-* **deps:** ⬆️ update @types/node to 16.10.3 (and 7 others) ([226cc57](https://github.com/spa5k/esbuild-typescript-library-template/commit/226cc578142c1e4adcd2aa295363e1133453a7fb))
+- **deps:** ⬆️ update @types/node to 16.10.3 (and 7 others) ([226cc57](https://github.com/spa5k/esbuild-typescript-library-template/commit/226cc578142c1e4adcd2aa295363e1133453a7fb))
 
 # [1.4.0](https://github.com/spa5k/esbuild-typescript-library-template/compare/v1.3.0...v1.4.0) (2021-10-04)
 
-
 ### Features
 
-* **deps:** ⬆️ upgrading dependencies to latest version ([61750b6](https://github.com/spa5k/esbuild-typescript-library-template/commit/61750b6281d367ad7a76dafc7fbec0c9a4005fd4))
-* **husky:** ✨ add pinst, update husky to ^7.0.0 ([e282485](https://github.com/spa5k/esbuild-typescript-library-template/commit/e2824854ca48724bf0ec1e842028a9bec0808c60))
+- **deps:** ⬆️ upgrading dependencies to latest version ([61750b6](https://github.com/spa5k/esbuild-typescript-library-template/commit/61750b6281d367ad7a76dafc7fbec0c9a4005fd4))
+- **husky:** ✨ add pinst, update husky to ^7.0.0 ([e282485](https://github.com/spa5k/esbuild-typescript-library-template/commit/e2824854ca48724bf0ec1e842028a9bec0808c60))
 
 # [1.3.0](https://github.com/spa5k/esbuild-typescript-library-template/compare/v1.2.0...v1.3.0) (2021-09-01)
 
-
 ### Features
 
-* **main:** ✨ Added node-dev to automatically start the dev server ([a9a444d](https://github.com/spa5k/esbuild-typescript-library-template/commit/a9a444d53ab5418ffeb826ed18a6c50bce21fd4f))
+- **main:** ✨ Added node-dev to automatically start the dev server ([a9a444d](https://github.com/spa5k/esbuild-typescript-library-template/commit/a9a444d53ab5418ffeb826ed18a6c50bce21fd4f))
 
 # [1.2.0](https://github.com/spa5k/esbuild-typescript-library-template/compare/v1.1.0...v1.2.0) (2021-08-21)
 
