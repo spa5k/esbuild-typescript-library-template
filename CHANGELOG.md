@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/spa5k/esbuild-typescript-library-template/compare/v1.6.0...v1.7.0) (2021-11-14)
+
+
+### Features
+
+* **deps:** ⬆️ update @commitlint/cli to 14.1.0 (and 14 others) ([4577df5](https://github.com/spa5k/esbuild-typescript-library-template/commit/4577df56d0eff352040ebcb5345ed069dc498c11))
+
 # [1.6.0](https://github.com/spa5k/esbuild-typescript-library-template/compare/v1.5.0...v1.6.0) (2021-10-26)
 
 
