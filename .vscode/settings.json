@@ -12,7 +12,9 @@
     "**/.pnp.*": true
   },
   "eslint.nodePath": ".yarn/sdks",
-  "prettier.prettierPath": ".yarn/sdks/prettier/index.js",
   "typescript.tsdk": ".yarn/sdks/typescript/lib",
-  "typescript.enablePromptUseWorkspaceTsdk": true
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "editor.defaultFormatter": "dprint.dprint",
+  "editor.formatOnSave": true,
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.js"
 }
