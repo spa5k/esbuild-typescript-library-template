@@ -1,3 +1,11 @@
+# [1.8.0](https://github.com/spa5k/esbuild-typescript-library-template/compare/v1.7.0...v1.8.0) (2022-03-31)
+
+
+### Features
+
+* **deps:** ➖ removing prettier ([13bbe88](https://github.com/spa5k/esbuild-typescript-library-template/commit/13bbe881fee2113b9019e3c4211fcb8a42920e58))
+* **main:** ✨ replaced jest with vitest, upgraded the deps ([c56b71f](https://github.com/spa5k/esbuild-typescript-library-template/commit/c56b71f49a585fef2c9181d0920d551af916445c))
+
 # [1.7.0](https://github.com/spa5k/esbuild-typescript-library-template/compare/v1.6.0...v1.7.0) (2021-11-14)
 
 ### Features
