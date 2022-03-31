@@ -3367,7 +3367,6 @@ __metadata:
     husky: 7.0.4
     node-dev: 7.4.2
     pinst: 3.0.0
-    prettier: 2.6.1
     semantic-release: 19.0.2
     tslib: 2.3.1
     tsup: 5.12.1
@@ -7075,15 +7074,6 @@ __metadata:
   version: 1.2.1
   resolution: "prelude-ls@npm:1.2.1"
   checksum: cd192ec0d0a8e4c6da3bb80e4f62afe336df3f76271ac6deb0e6a36187133b6073a19e9727a1ff108cd8b9982e4768850d413baa71214dd80c7979617dca827a
-  languageName: node
-  linkType: hard
-
-"prettier@npm:2.6.1":
-  version: 2.6.1
-  resolution: "prettier@npm:2.6.1"
-  bin:
-    prettier: bin-prettier.js
-  checksum: 78be1f8a3ddfad7c3d8a854b6c8941a3bb1ddfca4225c38d778e0fe1029a55368f71b3bbefff82c689015fbb4d391ec44add957f01308ad2725e01a7c1f37cb6
   languageName: node
   linkType: hard
 
