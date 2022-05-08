@@ -40,7 +40,7 @@
     "eslint-plugin-sonarjs": "0.13.0",
     "eslint-plugin-unicorn": "41.0.1",
     "husky": "7.0.4",
-    "node-dev": "7.4.2",
+    "node-dev": "7.4.3",
     "pinst": "3.0.0",
     "semantic-release": "19.0.2",
     "tslib": "2.3.1",
