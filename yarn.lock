@@ -2171,6 +2171,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"buffer-crc32@npm:~0.2.3":
+  version: 0.2.13
+  resolution: "buffer-crc32@npm:0.2.13"
+  checksum: 06252347ae6daca3453b94e4b2f1d3754a3b146a111d81c68924c22d91889a40623264e95e67955b1cb4a68cbedf317abeabb5140a9766ed248973096db5ce1c
+  languageName: node
+  linkType: hard
+
 "buffer-from@npm:^1.0.0":
   version: 1.1.2
   resolution: "buffer-from@npm:1.1.2"
@@ -3086,12 +3093,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dprint@npm:^0.24.2":
-  version: 0.24.2
-  resolution: "dprint@npm:0.24.2"
+"dprint@npm:0.27.1":
+  version: 0.27.1
+  resolution: "dprint@npm:0.27.1"
+  dependencies:
+    yauzl: =2.10.0
   bin:
     dprint: bin.js
-  checksum: 3ceabf123c7e63db756b63d75b459df79542085cfb587695fbf7036e0afeda97770a2af486de15aae64572cd7d2578c70c1afe25529dbb19f4b4620349b94ab3
+  checksum: 8704076718c0365b408a63706abc628320ddf58414b2f6ef7443474846b3abf0cfb2e177a16272711abeffa707f375174b1d9ab838b4533bdf23c48bc824bf2b
   languageName: node
   linkType: hard
 
@@ -3472,7 +3481,7 @@ __metadata:
     "@yarnpkg/esbuild-plugin-pnp": ^2.0.1
     commitizen: 4.2.4
     dotenv: 16.0.0
-    dprint: ^0.24.2
+    dprint: 0.27.1
     esbuild: 0.14.38
     eslint: 8.12.0
     eslint-config-galex: 3.6.5
@@ -4241,6 +4250,15 @@ __metadata:
   dependencies:
     reusify: ^1.0.4
   checksum: 32cf15c29afe622af187d12fc9cd93e160a0cb7c31a3bb6ace86b7dea3b28e7b72acde89c882663f307b2184e14782c6c664fa315973c03626c7d4bff070bb0b
+  languageName: node
+  linkType: hard
+
+"fd-slicer@npm:~1.1.0":
+  version: 1.1.0
+  resolution: "fd-slicer@npm:1.1.0"
+  dependencies:
+    pend: ~1.2.0
+  checksum: c8585fd5713f4476eb8261150900d2cb7f6ff2d87f8feb306ccc8a1122efd152f1783bdb2b8dc891395744583436bfd8081d8e63ece0ec8687eeefea394d4ff2
   languageName: node
   linkType: hard
 
@@ -7207,6 +7225,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pend@npm:~1.2.0":
+  version: 1.2.0
+  resolution: "pend@npm:1.2.0"
+  checksum: 6c72f5243303d9c60bd98e6446ba7d30ae29e3d56fdb6fae8767e8ba6386f33ee284c97efe3230a0d0217e2b1723b8ab490b1bbf34fcbb2180dbc8a9de47850d
+  languageName: node
+  linkType: hard
+
 "picocolors@npm:^1.0.0":
   version: 1.0.0
   resolution: "picocolors@npm:1.0.0"
@@ -9244,6 +9269,16 @@ __metadata:
     y18n: ^5.0.5
     yargs-parser: ^20.2.2
   checksum: 451aac46f82da776f436018feed0244bc0e7b4355f7e397bcb53d34c691b177c0d71db3dda9653760e1bc240254d8b763a252ff918ef9e235a8d202e2909c4eb
+  languageName: node
+  linkType: hard
+
+"yauzl@npm:=2.10.0":
+  version: 2.10.0
+  resolution: "yauzl@npm:2.10.0"
+  dependencies:
+    buffer-crc32: ~0.2.3
+    fd-slicer: ~1.1.0
+  checksum: 7f21fe0bbad6e2cb130044a5d1d0d5a0e5bf3d8d4f8c4e6ee12163ce798fee3de7388d22a7a0907f563ac5f9d40f8699a223d3d5c1718da90b0156da6904022b
   languageName: node
   linkType: hard
 
