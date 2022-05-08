@@ -3484,7 +3484,7 @@ __metadata:
     eslint-plugin-sonarjs: 0.13.0
     eslint-plugin-unicorn: 41.0.1
     husky: 7.0.4
-    node-dev: 7.4.2
+    node-dev: 7.4.3
     pinst: 3.0.0
     semantic-release: 19.0.2
     tslib: 2.3.1
@@ -6422,21 +6422,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-dev@npm:7.4.2":
-  version: 7.4.2
-  resolution: "node-dev@npm:7.4.2"
+"node-dev@npm:7.4.3":
+  version: 7.4.3
+  resolution: "node-dev@npm:7.4.3"
   dependencies:
     dateformat: ^3.0.3
     dynamic-dedupe: ^0.3.0
     filewatcher: ~3.0.0
     get-package-type: ^0.1.0
-    minimist: ^1.2.5
+    minimist: ^1.2.6
     node-notifier: ^8.0.1
-    resolve: ^1.0.0
-    semver: ^7.3.5
+    resolve: ^1.22.0
+    semver: ^7.3.7
   bin:
     node-dev: bin/node-dev
-  checksum: 6b65f855439bfe7e5fa3dd95795ba2fe2957305399fd6979adc84c4e280502b2e17530693191347b8e8c38c557d7ec3254028c4206577ee5f14c30dfebe3ab40
+  checksum: 7b7e77284f7203a1299750e6127e3fc359a401b1d63faacaa288e8f36dc709f8d3a4c6f4fb117249d2a4f0a09f3728972f90b88349009c0bf2e028d6fcb1c54c
   languageName: node
   linkType: hard
 
@@ -7645,7 +7645,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@npm:^1.0.0, resolve@npm:^1.10.0, resolve@npm:^1.20.0":
+"resolve@npm:^1.10.0, resolve@npm:^1.20.0":
   version: 1.20.0
   resolution: "resolve@npm:1.20.0"
   dependencies:
@@ -7678,7 +7678,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@^1.0.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>":
+"resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>":
   version: 1.20.0
   resolution: "resolve@patch:resolve@npm%3A1.20.0#~builtin<compat/resolve>::version=1.20.0&hash=07638b"
   dependencies:
@@ -7885,7 +7885,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:7.3.7":
+"semver@npm:7.3.7, semver@npm:^7.3.7":
   version: 7.3.7
   resolution: "semver@npm:7.3.7"
   dependencies:
