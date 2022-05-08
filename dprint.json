@@ -1,11 +1,12 @@
 {
-  "incremental": true,
+  "indentWidth": 2,
   "typescript": {},
   "json": {},
   "markdown": {},
   "toml": {},
   "dockerfile": {},
-  "includes": ["**/*.{ts,tsx,js,jsx,cjs,mjs,json,md,toml,dockerfile}"],
+  "newLineKind": "auto",
+  "includes": ["**/*.{ts,tsx,js,jsx,cjs,mjs,json,md,toml,dockerfile,sql}"],
   "excludes": [
     "**/node_modules",
     "**/*-lock.json",
@@ -13,12 +14,18 @@
     "**/yarn.lock",
     "**/dist"
   ],
-  "indentWidth": 2,
   "plugins": [
-    "https://plugins.dprint.dev/typescript-0.66.0.wasm",
-    "https://plugins.dprint.dev/json-0.15.0.wasm",
-    "https://plugins.dprint.dev/markdown-0.13.0.wasm",
+    "https://plugins.dprint.dev/typescript-0.68.2.wasm",
+    "https://plugins.dprint.dev/json-0.15.2.wasm",
+    "https://plugins.dprint.dev/markdown-0.13.2.wasm",
     "https://plugins.dprint.dev/toml-0.5.4.wasm",
-    "https://plugins.dprint.dev/dockerfile-0.2.2.wasm"
-  ]
+    "https://plugins.dprint.dev/dockerfile-0.2.2.wasm",
+    "https://plugins.dprint.dev/prettier-0.7.2.json@04c4c97ec64f171a18e24336fc5d2cdd6401a762836a1631b832abbe0dd6ec82",
+    "https://plugins.dprint.dev/sql-0.1.2.wasm"
+  ],
+  "prettier": {
+    "trailingComma": "all",
+    "singleQuote": true,
+    "proseWrap": "always"
+  }
 }
