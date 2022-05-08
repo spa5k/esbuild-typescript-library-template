@@ -3488,7 +3488,7 @@ __metadata:
     pinst: 3.0.0
     semantic-release: 19.0.2
     tslib: 2.3.1
-    tsup: 5.12.1
+    tsup: 5.12.7
     typescript: 4.6.3
     vite: ^2.9.1
     vitest: ^0.8.1
@@ -3537,7 +3537,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:0.14.38":
+"esbuild@npm:0.14.38, esbuild@npm:^0.14.25":
   version: 0.14.38
   resolution: "esbuild@npm:0.14.38"
   dependencies:
@@ -3608,7 +3608,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.14.2, esbuild@npm:^0.14.27":
+"esbuild@npm:^0.14.27":
   version: 0.14.29
   resolution: "esbuild@npm:0.14.29"
   dependencies:
@@ -8652,15 +8652,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsup@npm:5.12.1":
-  version: 5.12.1
-  resolution: "tsup@npm:5.12.1"
+"tsup@npm:5.12.7":
+  version: 5.12.7
+  resolution: "tsup@npm:5.12.7"
   dependencies:
     bundle-require: ^3.0.2
     cac: ^6.7.12
     chokidar: ^3.5.1
     debug: ^4.3.1
-    esbuild: ^0.14.2
+    esbuild: ^0.14.25
     execa: ^5.0.0
     globby: ^11.0.3
     joycon: ^3.0.1
@@ -8678,7 +8678,7 @@ __metadata:
   bin:
     tsup: dist/cli-default.js
     tsup-node: dist/cli-node.js
-  checksum: 807cbc470d1d35573d1a2b535e548f5aa8cb20a638d49564e49a5616b1f035a0b637e20449d1e9ae9e18bdb93d52a388f53d6ff57d5e99963db5a45588da7a7e
+  checksum: ebb0d85f2ccf7754580a38b731a3e6bb09158379c1ab180545669c35b70519cf2b7b1e2160bf8e58432516d1d9f57c107c8dd133f874187e29c770bb109f5c8e
   languageName: node
   linkType: hard
 
