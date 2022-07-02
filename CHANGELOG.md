@@ -1,9 +1,8 @@
 # [1.9.0](https://github.com/spa5k/esbuild-typescript-library-template/compare/v1.8.0...v1.9.0) (2022-05-08)
 
-
 ### Features
 
-* **deps:** ⬆️ update @types/node to 17.0.31 (and 3 others) ([642d9f0](https://github.com/spa5k/esbuild-typescript-library-template/commit/642d9f0c7bc7138ae157e527483636a99cfa13cd))
+- **deps:** ⬆️ update @types/node to 17.0.31 (and 3 others) ([642d9f0](https://github.com/spa5k/esbuild-typescript-library-template/commit/642d9f0c7bc7138ae157e527483636a99cfa13cd))
 
 # [1.8.0](https://github.com/spa5k/esbuild-typescript-library-template/compare/v1.7.0...v1.8.0) (2022-03-31)
 
