@@ -3428,14 +3428,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dprint@npm:0.30.2":
-  version: 0.30.2
-  resolution: "dprint@npm:0.30.2"
+"dprint@npm:0.30.3":
+  version: 0.30.3
+  resolution: "dprint@npm:0.30.3"
   dependencies:
     yauzl: =2.10.0
   bin:
     dprint: bin.js
-  checksum: 938314307e41d9e2571b28aff3fce06cda474c8f170094856e4680e62872d23d66002bb8ba949a61d0b0664dbb4a6cf57762c517ab9c1186292943733358f2ca
+  checksum: 53853ae32eab4acb4e47c2a2db088f36c1e7606702d011d42ef20f99ac117e5cd5e1123295b3466723aed3cb4a081645c96619743b7b92ae207857eba7d75b83
   languageName: node
   linkType: hard
 
@@ -3975,7 +3975,7 @@ __metadata:
     "@yarnpkg/esbuild-plugin-pnp": ^3.0.0-rc.11
     commitizen: 4.2.4
     dotenv: 16.0.1
-    dprint: 0.30.2
+    dprint: 0.30.3
     esbuild: 0.14.48
     eslint: 8.19.0
     eslint-config-galex: 4.1.4
