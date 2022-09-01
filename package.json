@@ -26,7 +26,7 @@
     "@types/node": "18.0.0",
     "@typescript-eslint/eslint-plugin": "5.30.7",
     "@typescript-eslint/parser": "5.30.7",
-    "commitizen": "4.2.4",
+    "commitizen": "4.2.5",
     "dotenv": "16.0.2",
     "dprint": "0.30.2",
     "esbuild": "0.14.54",
