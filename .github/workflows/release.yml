@@ -1,6 +1,4 @@
 name: Release
-
-# Run the workflow when a Pull Request is opened or when changes are pushed to master
 on:
   push:
     branches:
@@ -16,21 +14,22 @@ jobs:
     name: Node.js ${{ matrix.node }}
 
     steps:
-      - uses: actions/checkout@v3
-
+      - uses: actions/checkout@v2
+      - uses: pnpm/action-setup@v2.0.1
+        with:
+          version: 6.24.4
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
-          cache: "yarn"
-      - name: Install yarn latest
-        run: yarn set version berry && yarn set version latest
+          cache: "pnpm"
       - name: Install deps
-        run: yarn
+        run: pnpm install
       - name: Build
-        run: yarn build
+        run: pnpm build
+
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: yarn run semantic-release
+        run: pnpm semantic-release
