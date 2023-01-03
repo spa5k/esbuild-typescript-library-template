@@ -34,5 +34,8 @@
     "forceConsistentCasingInFileNames": true,
     // `tsdx build` ignores this option, but it is commonly used when type-checking separately with `tsc`
     "noEmit": true
+  },
+  "ts-node": {
+    "swc": true
   }
 }
