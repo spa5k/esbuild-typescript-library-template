@@ -71,7 +71,7 @@
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
-  "packageManager": "yarn@3.2.1",
+  "packageManager": "yarn@3.6.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/spa5k/esbuild-typescript-library-template.git"
