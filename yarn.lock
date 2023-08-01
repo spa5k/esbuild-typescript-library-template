@@ -1882,10 +1882,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:18.0.0":
+"@types/node@npm:*":
   version: 18.0.0
   resolution: "@types/node@npm:18.0.0"
   checksum: aab2b325727a2599f6d25ebe0dedf58c40fb66a51ce4ca9c0226ceb70fcda2d3afccdca29db5942eb48b158ee8585a274a1e3750c718bbd5399d7f41d62dfdcc
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:18.17.1":
+  version: 18.17.1
+  resolution: "@types/node@npm:18.17.1"
+  checksum: 56201bda9a2d05d68602df63b4e67b0545ac8c6d0280bd5fb31701350a978a577a027501fbf49db99bf177f2242ebd1244896bfd35e89042d5bd7dfebff28d4e
   languageName: node
   linkType: hard
 
@@ -4312,7 +4319,7 @@ __metadata:
     "@semantic-release/github": 8.1.0
     "@semantic-release/npm": 9.0.2
     "@semantic-release/release-notes-generator": 10.0.3
-    "@types/node": 18.0.0
+    "@types/node": 18.17.1
     "@typescript-eslint/eslint-plugin": 5.30.7
     "@typescript-eslint/parser": 5.30.7
     "@yarnpkg/esbuild-plugin-pnp": ^3.0.0-rc.11
