@@ -4331,7 +4331,7 @@ __metadata:
     eslint-config-galex: 4.1.9
     eslint-import-resolver-node: 0.3.9
     eslint-plugin-import: 2.26.0
-    eslint-plugin-inclusive-language: 2.2.0
+    eslint-plugin-inclusive-language: 2.2.1
     eslint-plugin-jest-formatting: 3.1.0
     eslint-plugin-promise: 6.0.1
     eslint-plugin-sonarjs: 0.13.0
@@ -4763,12 +4763,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-inclusive-language@npm:2.2.0":
-  version: 2.2.0
-  resolution: "eslint-plugin-inclusive-language@npm:2.2.0"
+"eslint-plugin-inclusive-language@npm:2.2.1":
+  version: 2.2.1
+  resolution: "eslint-plugin-inclusive-language@npm:2.2.1"
   dependencies:
     humps: ^2.0.1
-  checksum: 23094560b750cb8200382ac12faba00dda9cd882d42fe9f40777986699cc29a077bc6dfef0519c23f26753993d016fb8c206e0501e30de4858473f753e11a94b
+  checksum: a86bcff5924fd31f9e6986d227db5e331fb57a646a46ec0d339d3e8a3669cdf59c771721e5611ce9658a5b83409abcdf64c162ccb5b80f303bbcd9b691bf4c2b
   languageName: node
   linkType: hard
 
