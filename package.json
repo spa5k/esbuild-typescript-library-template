@@ -23,7 +23,7 @@
     "@semantic-release/github": "8.1.0",
     "@semantic-release/npm": "9.0.2",
     "@semantic-release/release-notes-generator": "10.0.3",
-    "@types/node": "18.17.12",
+    "@types/node": "18.18.1",
     "@typescript-eslint/eslint-plugin": "5.30.7",
     "@typescript-eslint/parser": "5.30.7",
     "commitizen": "4.2.5",
