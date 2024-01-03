@@ -2,7 +2,7 @@
 
 A template for building a library through typescript and bundling it through esbuild.
 
-Uses yarn v3.1 alongside latest pnp support.
+Uses yarn v4.
 
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/esbuild-typescript-library-template?logo=files&style=for-the-badge)
 ![npm](https://img.shields.io/npm/v/esbuild-typescript-library-template?logo=npm&style=for-the-badge)
@@ -23,7 +23,7 @@ Based on your commit history, `semantic-release` will automatically create a pat
 
 ### Visualization of this Repo.
 
-![Visualization of this repo](./diagram.svg)
+<img src="./diagram.svg" width="300" height="300">
 
 Commands:
 

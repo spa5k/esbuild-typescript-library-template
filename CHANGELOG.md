@@ -1,10 +1,9 @@
 # [1.11.0](https://github.com/spa5k/esbuild-typescript-library-template/compare/v1.10.0...v1.11.0) (2023-01-03)
 
-
 ### Features
 
-* **main:** ✨ moved to pnpm from yarn ([f131875](https://github.com/spa5k/esbuild-typescript-library-template/commit/f1318755033fdbee2052e4cdce407fb9e91c72ef))
-* **main:** ✨ removing yarn, moving to pnpm ([d331a71](https://github.com/spa5k/esbuild-typescript-library-template/commit/d331a714e473f1a7ff1b8b5e14dfa0753b853fd9))
+- **main:** ✨ moved to pnpm from yarn ([f131875](https://github.com/spa5k/esbuild-typescript-library-template/commit/f1318755033fdbee2052e4cdce407fb9e91c72ef))
+- **main:** ✨ removing yarn, moving to pnpm ([d331a71](https://github.com/spa5k/esbuild-typescript-library-template/commit/d331a714e473f1a7ff1b8b5e14dfa0753b853fd9))
 
 # [1.10.0](https://github.com/spa5k/esbuild-typescript-library-template/compare/v1.9.0...v1.10.0) (2022-07-02)
 

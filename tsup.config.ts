@@ -13,5 +13,6 @@ export const tsup: Options = {
   skipNodeModulesBundle: true,
   entryPoints: ["src/index.ts"],
   watch: env === "development",
-  target: "node16",
+  target: "node20",
+  treeshake: true,
 };
