@@ -30,7 +30,7 @@
     "dotenv": "16.0.3",
     "dprint": "0.30.2",
     "esbuild": "0.14.54",
-    "eslint": "8.20.0",
+    "eslint": "8.57.0",
     "eslint-config-galex": "4.1.9",
     "eslint-import-resolver-node": "0.3.9",
     "eslint-plugin-import": "2.26.0",
