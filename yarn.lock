@@ -4362,7 +4362,7 @@ __metadata:
     eslint-plugin-inclusive-language: 2.2.1
     eslint-plugin-jest-formatting: 3.1.0
     eslint-plugin-promise: 6.0.1
-    eslint-plugin-sonarjs: 0.13.0
+    eslint-plugin-sonarjs: 0.25.1
     eslint-plugin-unicorn: 43.0.2
     husky: 8.0.3
     node-dev: 7.4.3
@@ -4913,21 +4913,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-sonarjs@npm:0.13.0":
-  version: 0.13.0
-  resolution: "eslint-plugin-sonarjs@npm:0.13.0"
-  peerDependencies:
-    eslint: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: f1cbb33b010c663150c3866e5fdbad2398658e279405d863f48da98edb0438b0ea68732e263f5c939d3d6f2d9a785f80c10234c1b229873b6ee44c24fd6e0cd1
-  languageName: node
-  linkType: hard
-
 "eslint-plugin-sonarjs@npm:0.14.0":
   version: 0.14.0
   resolution: "eslint-plugin-sonarjs@npm:0.14.0"
   peerDependencies:
     eslint: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
   checksum: 5a6d20d985ce3d0e776d04815e305822dc866040903a4b8796011c4d1e8e8ccebe8904c6807596c5cc69ce898098956ce48f5a7bc47ad4ea7290e6845f7b3b1f
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-sonarjs@npm:0.25.1":
+  version: 0.25.1
+  resolution: "eslint-plugin-sonarjs@npm:0.25.1"
+  peerDependencies:
+    eslint: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
+  checksum: 76b4bde16182de2691682313f03342a951f60d55ed87d5700409e32c9f02660ae3ec9d95daf1c75c18a7c2035b0e1f92bdfb30df054dc90e63ab65d432a575f9
   languageName: node
   linkType: hard
 
