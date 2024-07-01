@@ -1,6 +1,6 @@
 {
 	"name": "esbuild-typescript-library-template",
-	"version": "3.0.1",
+	"version": "3.0.2",
 	"description": "Typescript Esbuild Library Template",
 	"keywords": [
 		"cjs",
@@ -24,7 +24,9 @@
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
 	"typings": "dist/index.d.ts",
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"build": "cross-env NODE_ENV=production tsup-node",
 		"build:dev": " cross-env NODE_ENV=development tsup-node",
