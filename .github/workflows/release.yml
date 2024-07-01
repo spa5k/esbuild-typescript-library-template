@@ -60,3 +60,9 @@ jobs:
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Create GitHub Release
+        run: |
+          gh release create ${{ steps.bump_version.outputs.VERSION }} --title "Release ${{ steps.bump_version.outputs.VERSION }}" --notes "Release ${{ steps.bump_version.outputs.VERSION }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
