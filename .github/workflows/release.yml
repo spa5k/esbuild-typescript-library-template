@@ -38,24 +38,26 @@ jobs:
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
       - name: Bump version and push tag
+        id: bump_version
         run: |
           if [ "${{ github.event.inputs.release_type }}" == "major" ]; then
-            export NEW_VERSION=$(npm version major)
+            NEW_VERSION=$(npm version major)
           elif [ "${{ github.event.inputs.release_type }}" == "minor" ]; then
-            export NEW_VERSION=$(npm version minor)
+            NEW_VERSION=$(npm version minor)
           else
-            export NEW_VERSION=$(npm version patch)
+            NEW_VERSION=$(npm version patch)
           fi
 
           echo "New version: $NEW_VERSION"
           git add package.json
           git push origin HEAD:main
           git push origin $NEW_VERSION
-          echo "::set-output name=VERSION::$NEW_VERSION"
+
+          echo "VERSION=$NEW_VERSION" >> $GITHUB_OUTPUT
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: Released $VERSION
+          commit_message: Released ${{ steps.bump_version.outputs.VERSION }}
 
       - name: Publish to NPM
         run: npm publish --access public
