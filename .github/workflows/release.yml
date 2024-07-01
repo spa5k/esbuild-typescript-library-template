@@ -1,35 +1,57 @@
-name: Release
+name: Release package to NPM
+
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
+    inputs:
+      release_type:
+        description: "Type of release (major, minor, patch)"
+        required: true
+        default: "minor"
+        type: choice
+        options:
+          - major
+          - minor
+          - patch
 
 jobs:
-  runner-job:
+  publish:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [20.x]
-
-    name: Node.js ${{ matrix.node }}
-
+    permissions:
+      packages: write
+      contents: write
     steps:
-      - uses: actions/checkout@v2
-      - uses: pnpm/action-setup@v2.0.1
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v2
         with:
-          version: 6.24.4
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v2
+          version: 9
+      - uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: 22
           cache: "pnpm"
-      - name: Install deps
-        run: pnpm install
-      - name: Build
-        run: pnpm build
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm test
+      - run: pnpm build
+      - name: Configure Git
+        run: |
+          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --local user.name "${{ github.actor }}"
+      - name: Bump version and push tag
+        run: |
+          if [ "${{ github.event.inputs.release_type }}" == "major" ]; then
+            export NEW_VERSION=$(npm version major)
+          elif [ "${{ github.event.inputs.release_type }}" == "minor" ]; then
+            export NEW_VERSION=$(npm version minor)
+          else
+            export NEW_VERSION=$(npm version patch)
+          fi
 
-      - name: Release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: pnpm semantic-release
+          echo "New version: $NEW_VERSION"
+          git add package.json
+          git push origin HEAD:main
+          git push origin $NEW_VERSION
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Released $VERSION
+
+      - run: pnpm publish --access public

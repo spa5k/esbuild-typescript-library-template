@@ -2,7 +2,7 @@
 
 A template for building a library through typescript and bundling it through esbuild.
 
-Uses yarn v4.
+Uses PNPM, Biome, and Github Actions for CI/CD.
 
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/esbuild-typescript-library-template?logo=files&style=for-the-badge)
 ![npm](https://img.shields.io/npm/v/esbuild-typescript-library-template?logo=npm&style=for-the-badge)
@@ -13,18 +13,12 @@ Uses yarn v4.
 
 1. `git clone git@github.com:spa5k/esbuild-typescript-library-template.git my-project`
 2. `cd my-project`
-3. `yarn install`
+3. `pnpm install`
 
 ### Releasing
 
-Under the hood, this library uses [semantic-release](https://github.com/semantic-release/semantic-release) and [commitizen](https://github.com/commitizen/cz-cli).
-The goal is to avoid manual release process. Using `semantic-release` will automatically create a github release (hence tags) as well as an npm release.
-Based on your commit history, `semantic-release` will automatically create a patch, feature or breaking release.
+This uses manual release, go to actions tab and trigger the type of release you want (Major, Minor, Patch)
 
 ### Visualization of this Repo.
 
 <img src="./diagram.svg" width="300" height="300">
-
-Commands:
-
-- `semantic-release`: triggers a release (used in CI)

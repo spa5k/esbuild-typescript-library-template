@@ -1,80 +1,50 @@
 {
-  "name": "esbuild-typescript-library-template",
-  "version": "1.11.0",
-  "description": "Typescript Esbuild Library Template",
-  "keywords": [
-    "cjs",
-    "dts",
-    "esbuild",
-    "esm",
-    "library",
-    "template",
-    "typescript"
-  ],
-  "homepage": "https://github.com/spa5k/esbuild-typescript-library-template#readme",
-  "bugs": {
-    "url": "https://github.com/spa5k/esbuild-typescript-library-template/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/spa5k/esbuild-typescript-library-template.git"
-  },
-  "license": "MIT",
-  "author": "spa5k <unbuttun@gmail.com>",
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
-  "typings": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "build": "cross-env NODE_ENV=production tsup-node",
-    "build:dev": " cross-env NODE_ENV=development tsup-node",
-    "coverage": "vitest run --coverage",
-    "dev": "node-dev dist/main.js",
-    "format": "dprint fmt",
-    "lint": "eslint src --ext .ts",
-    "prepare": "husky install",
-    "semantic-release": "semantic-release",
-    "test": "vitest"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pnpm format && pnpm lint",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
-  "devDependencies": {
-    "@commitlint/cli": "18.4.3",
-    "@commitlint/config-conventional": "18.4.3",
-    "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/commit-analyzer": "11.1.0",
-    "@semantic-release/git": "10.0.1",
-    "@semantic-release/github": "9.2.6",
-    "@semantic-release/npm": "11.0.2",
-    "@semantic-release/release-notes-generator": "12.1.0",
-    "@types/node": "20.10.6",
-    "@typescript-eslint/eslint-plugin": "6.17.0",
-    "@typescript-eslint/parser": "6.17.0",
-    "commitizen": "4.3.0",
-    "cross-env": "^7.0.3",
-    "dotenv": "16.3.1",
-    "dprint": "0.45.0",
-    "esbuild": "0.19.11",
-    "eslint": "8.56.0",
-    "husky": "8.0.3",
-    "semantic-release": "22.0.12",
-    "ts-node": "^10.9.2",
-    "tslib": "2.6.2",
-    "tsup": "8.0.1",
-    "typescript": "5.3.3",
-    "vite": "5.0.10",
-    "vitest": "1.1.1"
-  },
-  "packageManager": "yarn@4.0.2"
+	"name": "esbuild-typescript-library-template",
+	"version": "1.11.0",
+	"description": "Typescript Esbuild Library Template",
+	"keywords": [
+		"cjs",
+		"dts",
+		"esbuild",
+		"esm",
+		"library",
+		"template",
+		"typescript"
+	],
+	"homepage": "https://github.com/spa5k/esbuild-typescript-library-template#readme",
+	"bugs": {
+		"url": "https://github.com/spa5k/esbuild-typescript-library-template/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/spa5k/esbuild-typescript-library-template.git"
+	},
+	"license": "MIT",
+	"author": "spa5k",
+	"main": "dist/index.js",
+	"module": "dist/index.mjs",
+	"typings": "dist/index.d.ts",
+	"files": ["dist"],
+	"scripts": {
+		"build": "cross-env NODE_ENV=production tsup-node",
+		"build:dev": " cross-env NODE_ENV=development tsup-node",
+		"coverage": "vitest run --coverage",
+		"dev": "node-dev dist/main.js",
+		"format": "biome format --write",
+		"lint": "biome lint",
+		"test:watch": "vitest",
+		"test": "vitest run"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.8.3",
+		"@types/node": "20.14.9",
+		"cross-env": "^7.0.3",
+		"esbuild": "0.22.0",
+		"lefthook": "^1.6.18",
+		"tslib": "2.6.3",
+		"tsup": "8.1.0",
+		"typescript": "5.5.2",
+		"vitest": "^1.6.0"
+	},
+	"packageManager": "pnpm@9.4.0"
 }

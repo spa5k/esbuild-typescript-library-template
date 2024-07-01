@@ -1,18 +1,18 @@
-import type { Options } from "tsup";
+import { defineConfig } from "tsup";
 
-const env = process.env.NODE_ENV;
-
-export const tsup: Options = {
-  splitting: true,
-  sourcemap: env === "development",
-  clean: true,
-  dts: true,
-  format: ["cjs", "esm"],
-  minify: false,
-  bundle: true,
-  skipNodeModulesBundle: true,
-  entryPoints: ["src/index.ts"],
-  watch: env === "development",
-  target: "node20",
-  treeshake: true,
-};
+export default defineConfig({
+	entry: ["src/index.ts"],
+	splitting: true,
+	skipNodeModulesBundle: true,
+	sourcemap: false,
+	minify: true,
+	format: ["cjs", "esm"],
+	clean: true,
+	dts: process.env.NODE_ENV === "production",
+	outDir: "dist",
+	treeshake: true,
+	watch: process.env.NODE_ENV !== "production",
+	platform: "neutral",
+	target: "es2018",
+	replaceNodeEnv: true,
+});

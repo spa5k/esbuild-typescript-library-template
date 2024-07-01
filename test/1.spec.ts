@@ -1,7 +1,10 @@
-import { describe, expect, it } from "vitest";
+// sum.test.js
+import { expect, test } from "vitest";
 
-describe("1", () => {
-  it(`1`, () => {
-    expect(1).toBe(1);
-  });
+function sum(a: number, b: number): number {
+	return a + b;
+}
+
+test("adds 1 + 2 to equal 3", () => {
+	expect(sum(1, 2)).toBe(3);
 });
