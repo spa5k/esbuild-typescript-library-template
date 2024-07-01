@@ -51,6 +51,7 @@ jobs:
           git add package.json
           git push origin HEAD:main
           git push origin $NEW_VERSION
+          echo "::set-output name=VERSION::$NEW_VERSION"
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
