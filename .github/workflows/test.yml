@@ -1,11 +1,6 @@
 name: Test
 on:
-  pull_request:
-    branches:
-      - next
   push:
-    branches:
-      - next
 jobs:
   runner-job:
     runs-on: ubuntu-latest
