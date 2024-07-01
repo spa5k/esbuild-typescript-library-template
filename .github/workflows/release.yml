@@ -55,6 +55,6 @@ jobs:
         with:
           commit_message: Released $VERSION
 
-      - run: pnpm publish --access public
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
