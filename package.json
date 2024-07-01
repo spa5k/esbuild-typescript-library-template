@@ -1,6 +1,6 @@
 {
 	"name": "esbuild-typescript-library-template",
-	"version": "2.0.4",
+	"version": "2.0.5",
 	"description": "Typescript Esbuild Library Template",
 	"keywords": [
 		"cjs",
