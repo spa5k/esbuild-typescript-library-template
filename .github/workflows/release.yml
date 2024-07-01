@@ -52,11 +52,11 @@ jobs:
           git push origin HEAD:main
           git push origin $NEW_VERSION
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Released $VERSION
 
       - name: Publish to NPM
-        run: npm publish --provenance --access public
+        run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
