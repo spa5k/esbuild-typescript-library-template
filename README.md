@@ -21,4 +21,4 @@ This uses manual release, go to actions tab and trigger the type of release you 
 
 ### Visualization of this Repo.
 
-<img src="./diagram.svg" width="300" height="300">
+<img src="./diagram.svg" width="100" height="100">
