@@ -45,7 +45,7 @@
 		"lefthook": "^1.6.18",
 		"tslib": "2.8.1",
 		"tsup": "8.5.1",
-		"typescript": "5.5.4",
+		"typescript": "5.9.3",
 		"vitest": "^1.6.0"
 	},
 	"packageManager": "pnpm@9.4.0"
