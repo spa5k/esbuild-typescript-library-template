@@ -39,7 +39,7 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.4.16",
-		"@types/node": "20.19.41",
+		"@types/node": "20.19.43",
 		"cross-env": "^7.0.3",
 		"esbuild": "0.28.0",
 		"lefthook": "^1.6.18",
