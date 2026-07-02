@@ -41,7 +41,7 @@
 		"@biomejs/biome": "2.4.16",
 		"@types/node": "20.19.43",
 		"cross-env": "^7.0.3",
-		"esbuild": "0.28.0",
+		"esbuild": "0.28.1",
 		"lefthook": "^1.6.18",
 		"tslib": "2.8.1",
 		"tsup": "8.5.1",
